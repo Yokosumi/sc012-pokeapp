@@ -5,7 +5,7 @@ import axios from 'axios'
 interface Pokemon {
     name: string
     url: string
-    details: any // Replace 'any' with the actual type of the details
+    details: any
 }
 
 interface PokemonData {
